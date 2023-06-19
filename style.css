@@ -82,7 +82,7 @@
     background: #fff;
     transform: translateX(-50%);
   }
-  
+ 
   /* navbar styling */
   .navbar {
     position: fixed;
@@ -127,10 +127,10 @@
     transition: color 0.3s ease;
   }
   .navbar .menu li a:hover {
-    color: #06d6a0;
+    color: #000;
   }
   .navbar.sticky .menu li a:hover {
-    color: #fff;
+    color: #000;
   }
   .navbar.sticky .menu li a{
     /* color: #000; */
@@ -221,7 +221,9 @@
     color: #06d6a0;
     background: none;
   }
-  
+.menu :hover{
+  color: #000;
+}
   /* about section styling */
   .about{
   
@@ -278,6 +280,44 @@
     
     color: red;
   }
+
+
+  /* css for experience */
+  #experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 25px;
+  
+}
+
+.experience-item {
+    
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience-item img {
+    width: 25%;
+    height: 25%;
+    margin-right: 10px;
+}
+
+.experience-item h3,
+.experience-item p {
+    margin: 0;
+}
+
+.experience-item ul {
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+
+.experience-item li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
 
 
  /* git hub calender */
